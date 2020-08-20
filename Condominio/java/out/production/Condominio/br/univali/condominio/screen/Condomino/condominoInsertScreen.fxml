@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="130.0" prefWidth="508.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="br.univali.condominio.screen.Condomino.CondominoInsertScreen">
+   <children>
+      <TextField fx:id="nomeTextField" layoutX="20.0" layoutY="40.0" prefHeight="25.0" prefWidth="214.0" />
+      <Label layoutX="109.0" layoutY="20.0" text="Nome" />
+      <TextField fx:id="apTextField" layoutX="257.0" layoutY="40.0" prefHeight="25.0" prefWidth="33.0" />
+      <Label layoutX="266.0" layoutY="20.0" text="Ap" />
+      <Button fx:id="voltarButton" layoutX="438.0" layoutY="90.0" mnemonicParsing="false" onMouseClicked="#voltarClicked" text="Voltar" />
+      <Button fx:id="inserirButton" layoutX="20.0" layoutY="90.0" mnemonicParsing="false" onMouseClicked="#inserirClicked" text="Inserir" />
+      <TextField fx:id="telefoneTextField" layoutX="345.0" layoutY="40.0" prefHeight="25.0" prefWidth="139.0" />
+      <Label layoutX="392.0" layoutY="20.0" text="Telefone" />
+   </children>
+</AnchorPane>

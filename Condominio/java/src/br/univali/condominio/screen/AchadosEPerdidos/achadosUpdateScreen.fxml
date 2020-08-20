@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="130.0" prefWidth="368.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="br.univali.condominio.screen.AchadosEPerdidos.AchadosUpdateController">
+   <children>
+      <TextField fx:id="itemTextField" layoutX="101.0" layoutY="37.0" prefHeight="25.0" prefWidth="143.0" />
+      <Label layoutX="139.0" layoutY="20.0" text="Item Achado" />
+      <TextField fx:id="idFuncionarioTextField" layoutX="283.0" layoutY="37.0" prefHeight="25.0" prefWidth="47.0" />
+      <Label layoutX="260.0" layoutY="20.0" text="Id do Funcionario" />
+      <Button fx:id="voltarButton" layoutX="283.0" layoutY="90.0" mnemonicParsing="false" onMouseClicked="#voltarClicked" text="Voltar" />
+      <Button fx:id="updateButton" layoutX="33.0" layoutY="90.0" mnemonicParsing="false" onMouseClicked="#updateClicked" text="Editar" />
+      <TextField fx:id="idAchadosTextField" layoutX="33.0" layoutY="37.0" prefHeight="25.0" prefWidth="47.0" />
+      <Label layoutX="51.0" layoutY="20.0" text="ID" />
+   </children>
+</AnchorPane>

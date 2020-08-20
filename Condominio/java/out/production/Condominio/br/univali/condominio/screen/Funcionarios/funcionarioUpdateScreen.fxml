@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="130.0" prefWidth="586.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="br.univali.condominio.screen.Funcionarios.FuncionarioUpdateScreen">
+   <children>
+      <TextField fx:id="nomeTextField" layoutX="109.0" layoutY="40.0" prefHeight="25.0" prefWidth="214.0" />
+      <Label layoutX="200.0" layoutY="20.0" text="Nome" />
+      <TextField fx:id="cargoTextField" layoutX="500.0" layoutY="40.0" prefHeight="25.0" prefWidth="33.0" />
+      <Label layoutX="493.0" layoutY="20.0" text="ID Cargo" />
+      <Button fx:id="voltarButton" layoutX="493.0" layoutY="90.0" mnemonicParsing="false" onMouseClicked="#voltarClicked" text="Voltar" />
+      <Button fx:id="updateButton" layoutX="33.0" layoutY="90.0" mnemonicParsing="false" onMouseClicked="#inserirClicked" text="Editar" />
+      <TextField fx:id="telefoneTextField" layoutX="337.0" layoutY="40.0" prefHeight="25.0" prefWidth="139.0" />
+      <Label layoutX="384.0" layoutY="20.0" text="Telefone" />
+      <TextField fx:id="idFuncionarioTextField" layoutX="41.0" layoutY="40.0" prefHeight="25.0" prefWidth="33.0" />
+      <Label layoutX="50.0" layoutY="20.0" text="ID" />
+   </children>
+</AnchorPane>
